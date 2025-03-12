@@ -1,0 +1,75 @@
+.explorePageContainer{
+    display: grid;
+    grid-template-columns: 20% 80%;
+  padding: 10% 5%;
+  gap: 20px;
+
+ 
+}
+.exploreText{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.exploreCardContainer{
+    display: flex;
+    gap: 30px;
+    padding: 16px;
+   
+
+}
+.exploreCardSection{
+    box-shadow: 0px 0px 4px 0px #0000002E;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.exploreCardSection div span {
+    font-weight: 500;
+    font-size: 28px;
+    background: linear-gradient(90deg, #6C5FD4, #6C5FD4);
+
+    -webkit-text-fill-color: transparent;
+
+   
+    background-clip: text;
+    padding-left: 20px;
+}
+
+.exploreCardSection div p{
+font-weight: 400;
+font-size: 18px;
+
+}
+.exploreHeading {
+    font-weight: 400;
+    font-size: 48px;
+    color: white; 
+    -webkit-text-stroke: 1px #6C5FD4; 
+    text-shadow: 0px 8px 5px rgba(108, 95, 212, 0.5);
+   
+
+}
+.explorePara{
+font-weight: 400;
+font-size: 18px;
+
+
+}
+.explorePageContainer div  button{
+    background-color: #6C5FD4;
+    border-radius: 23px;
+   /* height: 40px; */
+   padding: 15px 10px;
+   width: 176px;
+   border: none;
+   color: white;
+  
+
+}
+
+.exploreCardSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

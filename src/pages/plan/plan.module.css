@@ -1,0 +1,49 @@
+.plan{
+    background: linear-gradient(270deg, rgba(67, 156, 225, 0.35) 1.22%, rgba(141, 89, 229, 0.35) 50.09%, rgba(200, 28, 230, 0.35) 98.96%);
+    padding: 5%;
+    padding-bottom: 0%;
+    display: flex;
+    gap: 20px;
+}
+
+.planTextContainer{
+    padding-top: 20px;
+
+}
+.planTextContainer h2{
+    
+font-weight: 600;
+font-size: 36px;
+
+
+}
+.planTextContainer p{
+    
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+
+}
+.planTextContainer button{
+    background-color: #6C5FD4;
+   /* height: 40px; */
+   padding: 15px 10px;
+   border: none;
+   color: white;
+   font-size: 18px;
+border-radius: 4px;
+padding:8px ;
+margin: 4px;
+
+}
+.planTextContainer span{
+    padding-left: 10px;
+    line-height: 28px;
+    font-size: 18px;
+}
+.planTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

@@ -1,0 +1,57 @@
+.about{
+background: linear-gradient(155deg, #FFFFFF 55.44%, #4D95E1 71.32%, #8165E4 82.01%, #BD2CE8 94.69%);
+display: flex;
+padding-top: 10%;
+gap: 50px;
+
+}
+.aboutText{
+    padding-left: 5%;
+   flex: 1.4;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.aboutImage{
+    flex: 1;
+}
+.aboutText h1 span{
+    background: linear-gradient(90deg, #4899E1 0%, #CC1CE8 50%, #A344E6 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.aboutText h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.aboutText p{
+    font-size: 28px;
+    font-weight: 500;
+}
+img{
+    object-fit: contain;
+}
+
+.aboutText button{
+    background-color: #6C5FD4;
+    border-radius: 23px;
+   /* height: 40px; */
+   padding: 15px 10px;
+   width: 176px;
+   border: none;
+   color: white;
+  
+  }
+
+
+  @media (max-width:768px) {
+    .about{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 20%;
+       
+    }
+   
+  }
